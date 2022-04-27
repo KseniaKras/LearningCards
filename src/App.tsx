@@ -11,7 +11,7 @@ function App() {
             <Header />
         </div>
       <Routes>
-          <Route path="/" element={<Navigate to={"/test"}/>}/>
+          <Route path="/*" element={''}/>
 
 
           <Route path="/login" element={"логинизация"}/>
@@ -33,7 +33,7 @@ export const Header = () => {
 
     return (
         <div style={{display: "flex", justifyContent: "space-around", width: "60%", margin: "0 auto"}}>
-            <NavLink to={'/'}> login </NavLink>
+            <NavLink to={'/login'}> login </NavLink>
             <NavLink to={'/registration'} > registration </NavLink>
             <NavLink to={'/profile'} > profile </NavLink>
             <NavLink to={'/error'} > error </NavLink>
