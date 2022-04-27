@@ -12,6 +12,8 @@ function App() {
         </div>
       <Routes>
           <Route path="/" element={<Navigate to={"/test"}/>}/>
+
+
           <Route path="/login" element={"логинизация"}/>
           <Route path="/registration" element={"регистрация"}/>
           <Route path="/profile" element={"профайл"}/>
