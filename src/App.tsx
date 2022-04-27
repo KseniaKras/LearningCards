@@ -11,8 +11,8 @@ function App() {
             <Header />
         </div>
       <Routes>
-          {/*<Route path="/" element={<Navigate to={"/test"}/>}/>*/}
-          <Route path="/" element={"логинизация"}/>
+          <Route path="/" element={<Navigate to={"/test"}/>}/>
+          <Route path="/login" element={"логинизация"}/>
           <Route path="/registration" element={"регистрация"}/>
           <Route path="/profile" element={"профайл"}/>
           <Route path="/error" element={"404"}/>
