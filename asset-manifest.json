@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LearningCards/static/css/main.42c6cb74.css",
-    "main.js": "/LearningCards/static/js/main.4cb0928c.js",
+    "main.js": "/LearningCards/static/js/main.f09159d5.js",
     "static/media/checked.png": "/LearningCards/static/media/checked.d2663ebb36cee83b0a62.png",
     "index.html": "/LearningCards/index.html",
     "main.42c6cb74.css.map": "/LearningCards/static/css/main.42c6cb74.css.map",
-    "main.4cb0928c.js.map": "/LearningCards/static/js/main.4cb0928c.js.map"
+    "main.f09159d5.js.map": "/LearningCards/static/js/main.f09159d5.js.map"
   },
   "entrypoints": [
     "static/css/main.42c6cb74.css",
-    "static/js/main.4cb0928c.js"
+    "static/js/main.f09159d5.js"
   ]
 }
