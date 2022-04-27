@@ -11,8 +11,8 @@ function App() {
             <Header />
         </div>
       <Routes>
-          <Route path="/" element={<Navigate to={"/test"}/>}/>
-          <Route path="/login" element={"логинизация"}/>
+          {/*<Route path="/" element={<Navigate to={"/test"}/>}/>*/}
+          <Route path="/" element={"логинизация"}/>
           <Route path="/registration" element={"регистрация"}/>
           <Route path="/profile" element={"профайл"}/>
           <Route path="/error" element={"404"}/>
@@ -31,7 +31,7 @@ export const Header = () => {
 
     return (
         <div style={{display: "flex", justifyContent: "space-around", width: "60%", margin: "0 auto"}}>
-            <NavLink to={'/login'}> login </NavLink>
+            <NavLink to={'/'}> login </NavLink>
             <NavLink to={'/registration'} > registration </NavLink>
             <NavLink to={'/profile'} > profile </NavLink>
             <NavLink to={'/error'} > error </NavLink>
